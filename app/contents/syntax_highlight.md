@@ -8,6 +8,7 @@ auto_update: true
 description: Online syntax highlight tool
 keywords: syntax highlight
 ---
+
 <span>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script>
   <link rel="stylesheet" title="Default" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/styles/default.min.css" />

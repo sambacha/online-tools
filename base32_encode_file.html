@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
 
-    <meta name="description" content="Base32 online encode file function">
-    <title>Base32 Encode File Online
-    </title>
+    <meta
+      name="description"
+      content="Base32 online encode file function"
+    />
+    <title>Base32 Encode File Online</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <script
-  src="https://code.jquery.com/jquery-1.12.4.min.js"
-  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-  crossorigin="anonymous"></script>
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div id="header">
@@ -22,22 +28,37 @@
     <div id="body">
       <script src="js/main.js"></script>
       <div id="main">
-        <h1>Base32 Encode File
-        </h1>
-        <div class="description">Base32 online encode file function
+        <h1>Base32 Encode File</h1>
+        <div class="description">
+          Base32 online encode file function
         </div>
         <div class="input">
           <div id="droppable-zone">
             <div id="droppable-zone-wrapper">
               <div id="droppable-zone-text">Drop File Here</div>
             </div>
-            <input class="droppable-file" id="input" type="file" placeholder="Input2">
+            <input
+              class="droppable-file"
+              id="input"
+              type="file"
+              placeholder="Input2"
+            />
           </div>
         </div>
         <div class="submit">
-          <input class="btn btn-default" id="execute" type="button" value="Encode">
+          <input
+            class="btn btn-default"
+            id="execute"
+            type="button"
+            value="Encode"
+          />
           <label>
-            <input id="auto-update" type="checkbox" value="1" checked="checked">Auto Update
+            <input
+              id="auto-update"
+              type="checkbox"
+              value="1"
+              checked="checked"
+            />Auto Update
           </label>
         </div>
         <div class="output">
@@ -88,7 +109,9 @@
             <li>
               <div class="menu-group">Misc</div>
             </li>
-            <li><a href="syntax_highlight.html">Syntax Highlight</a></li>
+            <li>
+              <a href="syntax_highlight.html">Syntax Highlight</a>
+            </li>
           </ul>
         </div>
         <div class="col">
@@ -134,7 +157,9 @@
         <div class="clearfix"></div>
       </div>
       <script src="https://cdn.jsdelivr.net/gh/emn178/hi-base32@v0.5.1/build/base32.min.js"></script>
-      <script>method = base32.encode;</script>
+      <script>
+        method = base32.encode;
+      </script>
     </div>
     <div id="footer">&copy; 2015-2017 crypto-utils</div>
   </body>

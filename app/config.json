@@ -6,8 +6,7 @@
     "owner": "emn178@gmail.com",
     "description": "crypto-utils writing by JavaScript"
   },
-  "plugins": [
-  ],
+  "plugins": [],
   "pug": {
     "pretty": true
   },

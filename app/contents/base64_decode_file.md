@@ -7,6 +7,7 @@ auto_update: false
 description: Decode and download file from base64 online function
 keywords: Base64,online,decode,download
 ---
+
 <script>
 $(document).ready(function() {
   var download = $('<a class="btn btn-default" download="base64"/>').text('Download');
