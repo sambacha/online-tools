@@ -2,9 +2,9 @@
   "output": "..",
   "locals": {
     "url": "http://localhost:8080",
-    "name": "Online Tools",
+    "name": "crypto-utils",
     "owner": "emn178@gmail.com",
-    "description": "Online tools writing by JavaScript"
+    "description": "crypto-utils writing by JavaScript"
   },
   "plugins": [
   ],
